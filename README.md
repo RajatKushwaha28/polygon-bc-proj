@@ -43,9 +43,9 @@ Follow the official Rust installation guide
 ## Configure environment ##
 Create a .env file in the root directory with the following:
 
-POLYGON_RPC=https://polygon-rpc.com
+    POLYGON_RPC=https://polygon-rpc.com
 
-POL_TOKEN=0x0000000000000000000000000000000000001010
+    POL_TOKEN=0x0000000000000000000000000000000000001010
 
 ## Running the Indexer ##
 
