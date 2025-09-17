@@ -15,11 +15,17 @@ It listens to new blocks in real time, stores transaction data, and calculates h
 Start the real-time indexer:
 cargo run --bin main
 This will:
+
 • Connect to the Polygon RPC
+
 • Listen for new blocks
+
 • Detect transactions involving Binance addresses
+
 • Save raw transactions + net flow in SQLite (polygon_data.db)
+
 • Print net flow updates in real-time
+
 
 **Checking the Latest Net Flow**
 
@@ -28,6 +34,7 @@ cargo run --bin total-flow
 
 
 **Scalability & Future Improvements**
+
 • Multi-exchange support: Add more exchange address lists.
 
 • API Interface: Expose a simple REST API endpoint instead of CLI.
