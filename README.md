@@ -13,7 +13,9 @@ It listens to new blocks in real time, stores transaction data, and calculates h
 **Running the Indexer**
 
 Start the real-time indexer:
+
 cargo run --bin main
+
 This will:
 
 • Connect to the Polygon RPC
@@ -30,6 +32,7 @@ This will:
 **Checking the Latest Net Flow**
 
 Run the query tool:
+
 cargo run --bin total-flow
 
 
