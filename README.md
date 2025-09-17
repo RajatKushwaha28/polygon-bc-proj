@@ -4,15 +4,15 @@ This project tracks the cumulative net flow of POL tokens between the Polygon ne
 
 It:
 
-Listens to new Polygon blocks in real time
+1. Listens to new Polygon blocks in real time
 
-Stores raw transaction data in SQLite
+2. Stores raw transaction data in SQLite
 
-Calculates net inflow/outflow of POL tokens into Binance
+3. Calculates net inflow/outflow of POL tokens into Binance
 
-Prints live updates to the console
+4. Prints live updates to the console
 
-Features
+## Features ##
 
 Connects to Polygon RPC in real time
 
@@ -24,7 +24,7 @@ Tracks cumulative net flow of POL tokens
 
 Provides live real-time updates
 
-Setup & Installation
+## Setup & Installation ##
 
 Clone the repository
 
