@@ -1,0 +1,11 @@
+target/
+**/*.rs.bk
+Cargo.lock        # (optional: keep if you're building a binary project with reproducibility needs)
+*.db
+.env
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/

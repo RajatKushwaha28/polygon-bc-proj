@@ -1,0 +1,12 @@
+[package]
+name = "polygon-bc-proj"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.28", features = ["full"] }
+web3 = { version = "0.19.0" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rusqlite = { version = "0.31", features = ["bundled"] }
+dotenv = "0.15"
