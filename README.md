@@ -1,10 +1,10 @@
-📊 Binance Net Flow Indexer
+Binance Net Flow Indexer
 
 This project tracks the cumulative net flow of POL tokens between the Polygon network and known Binance addresses.
 
 It:
 
-Listens to new Polygon blocks in real-time
+Listens to new Polygon blocks in real time
 
 Stores raw transaction data in SQLite
 
@@ -12,19 +12,19 @@ Calculates net inflow/outflow of POL tokens into Binance
 
 Prints live updates to the console
 
-🚀 Features
+Features
 
-🔗 Connects to Polygon RPC in real time
+Connects to Polygon RPC in real time
 
-🏦 Detects transactions involving Binance addresses
+Detects transactions involving Binance addresses
 
-💾 Stores data in SQLite (polygon_data.db)
+Stores data in SQLite (polygon_data.db)
 
-📈 Tracks cumulative net flow of POL tokens
+Tracks cumulative net flow of POL tokens
 
-⚡ Live real-time updates
+Provides live real-time updates
 
-⚙️ Setup & Installation
+Setup & Installation
 
 Clone the repository
 
@@ -33,7 +33,8 @@ cd <repo-name>
 
 
 Install Rust
-Rust installation guide
+Follow the official Rust installation guide
+.
 
 Build dependencies
 
@@ -41,12 +42,12 @@ cargo build
 
 
 Configure environment
-Create a .env file in the root directory:
+Create a .env file in the root directory with the following:
 
 POLYGON_RPC=https://polygon-rpc.com
 POL_TOKEN=0x0000000000000000000000000000000000001010
 
-▶️ Running the Indexer
+Running the Indexer
 
 Start real-time tracking:
 
@@ -65,7 +66,7 @@ Save data into SQLite
 
 Print live net flow updates
 
-📌 Checking the Latest Net Flow
+Checking the Latest Net Flow
 
 Run the query tool:
 
@@ -74,12 +75,20 @@ cargo run --bin total-flow
 
 This prints the current cumulative net flow stored in the database.
 
-🔮 Scalability & Future Improvements
+Scalability & Future Improvements
 
-🏦 Multi-exchange support → Add more exchange address lists
+Multi-exchange support: Add more exchange address lists
 
-🌐 API Interface → Expose REST API endpoints instead of CLI
+API Interface: Expose REST API endpoints instead of CLI
 
-📊 Dashboard → Web frontend with live charts & historical data
+Dashboard: Web frontend with live charts and historical data
 
-🛡 Resilience → Error handling, retry logic & better logging
+Resilience: Error handling, retry logic, and better logging
+
+Tech Stack
+
+Rust – Core language
+
+SQLite – Data storage
+
+Polygon RPC – Blockchain connection
