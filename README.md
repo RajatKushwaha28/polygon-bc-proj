@@ -29,6 +29,11 @@ cargo run --bin total-flow
 
 **Scalability & Future Improvements**
 • Multi-exchange support: Add more exchange address lists.
+
 • API Interface: Expose a simple REST API endpoint instead of CLI.
+
 • Dashboard: Add a web frontend for live charts and historical views.
+
 • Resilience: Add error handling, retry logic, and logging improvements.
+
+
