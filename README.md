@@ -26,66 +26,65 @@ Provides live real-time updates
 
 ## Setup & Installation ##
 
-**Clone the repository**
+**1. Clone the repository**
 
     git clone <your-repo-url>
     cd <repo-name>
 
 
-Install Rust
+**2. Install Rust**
 Follow the official Rust installation guide
-.
 
-Build dependencies
+**3. Build dependencies**
 
-cargo build
+    cargo build
 
 
-Configure environment
+## Configure environment ##
 Create a .env file in the root directory with the following:
 
 POLYGON_RPC=https://polygon-rpc.com
 POL_TOKEN=0x0000000000000000000000000000000000001010
 
-Running the Indexer
+## Running the Indexer ##
 
-Start real-time tracking:
+**Start real-time tracking:**
 
-cargo run --bin main
-
-
-This will:
-
-Connect to Polygon RPC
-
-Listen for new blocks
-
-Detect Binance-related transactions
-
-Save data into SQLite
-
-Print live net flow updates
-
-Checking the Latest Net Flow
-
-Run the query tool:
-
-cargo run --bin total-flow
+    cargo run --bin main
 
 
-This prints the current cumulative net flow stored in the database.
+**This will:**
 
-Scalability & Future Improvements
+1. Connect to Polygon RPC
 
-Multi-exchange support: Add more exchange address lists
+2. Listen for new blocks
 
-API Interface: Expose REST API endpoints instead of CLI
+3. Detect Binance-related transactions
 
-Dashboard: Web frontend with live charts and historical data
+4. Save data into SQLite
 
-Resilience: Error handling, retry logic, and better logging
+5. Print live net flow updates
 
-Tech Stack
+6. Checking the Latest Net Flow
+
+## Run the query tool: ##
+
+    cargo run --bin total-flow
+
+
+1. This prints the current cumulative net flow stored in the database.
+
+2. Scalability & Future Improvements
+
+3. Multi-exchange support: Add more exchange address lists
+
+4. API Interface: Expose REST API endpoints instead of CLI
+
+5. Dashboard: Web frontend with live charts and historical data
+
+6. Resilience: Error handling, retry logic, and better logging
+
+## Tech Stack ##
 
 Rust – Core language
 
