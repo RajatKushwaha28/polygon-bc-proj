@@ -1,4 +1,4 @@
-###Binance Net Flow Indexer###
+### Binance Net Flow Indexer ###
 
 This project tracks the cumulative net flow of POL tokens between the Polygon network and known Binance addresses.
 
