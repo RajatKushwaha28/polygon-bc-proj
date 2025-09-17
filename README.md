@@ -26,10 +26,10 @@ Provides live real-time updates
 
 ## Setup & Installation ##
 
-Clone the repository
+**Clone the repository**
 
-git clone <your-repo-url>
-cd <repo-name>
+    git clone <your-repo-url>
+    cd <repo-name>
 
 
 Install Rust
